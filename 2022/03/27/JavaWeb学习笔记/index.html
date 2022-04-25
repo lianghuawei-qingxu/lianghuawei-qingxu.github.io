@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="liang"><meta name="copyright" content="liang"><meta name="generator" content="Hexo 6.1.0"><meta name="theme" content="hexo-theme-yun"><title>Hexo</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/star-markdown-css@0.2.4/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-vars/base.css"><script src="//at.alicdn.com/t/font_1140697_dxory92pb0h.js" async></script><script src="https://cdn.jsdelivr.net/npm/@unocss/runtime/mini.global.js"></script><script src="https://cdn.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="liang"><meta name="copyright" content="liang"><meta name="generator" content="Hexo 6.1.0"><meta name="theme" content="hexo-theme-yun"><title>Javaweb学习笔记 | Hexo</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/star-markdown-css@0.2.4/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-vars/base.css"><script src="//at.alicdn.com/t/font_1140697_dxory92pb0h.js" async></script><script src="https://cdn.jsdelivr.net/npm/@unocss/runtime/mini.global.js"></script><script src="https://cdn.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
   [".post-card",".markdown-body img"].forEach((target)=> {
     ScrollReveal().reveal(target);
   })
@@ -10,16 +10,72 @@ document.addEventListener("pjax:success", initScrollReveal);
     window.CONFIG = {"hostname":"example.com","root":"/","title":"清许的小站","version":"1.8.11","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}.","hits":"${hits} results found","hits_time":"${hits} results found in ${time} ms"},"anonymous_image":"https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/avatar/none.jpg","say":{"api":"https://v1.hitokoto.cn","hitokoto":true},"fireworks":{"colors":null},"vendors":{"darken":"https://cdn.jsdelivr.net/npm/darken@1.5.0"}};
   </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><meta name="description" content="JavaWenb表单的学习： 一行  一列   web  CS与BS的异同点cs客户端服务器架构模式 bs浏览器服务器架构模式  Tomcate bin可执行目录 conf配置文件目录 lib存放lib的目录 logs日志文件目录 123456789101112&lt;%@ page contentType&#x3D;&quot;text&#x2F;html;charset&#x3D;UTF-8&quot; language&#x3D;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="Javaweb学习笔记">
 <meta property="og:url" content="http://example.com/2022/03/27/JavaWeb%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="JavaWenb表单的学习： 一行  一列   web  CS与BS的异同点cs客户端服务器架构模式 bs浏览器服务器架构模式  Tomcate bin可执行目录 conf配置文件目录 lib存放lib的目录 logs日志文件目录 123456789101112&lt;%@ page contentType&#x3D;&quot;text&#x2F;html;charset&#x3D;UTF-8&quot; language&#x3D;">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220323153652345.png">
-<meta property="og:image" content="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220323160948604.png">
-<meta property="og:image" content="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220326175833212.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220323160948604.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220326175833212.png">
+<meta property="og:image" content="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220402163343498.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220402170353019.png">
+<meta property="og:image" content="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220402174157943.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220402174739905.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220402180118108.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220402181221956.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220402181930321.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220402182901062.png">
+<meta property="og:image" content="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220402203201370.png">
+<meta property="og:image" content="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220402204509365.png">
+<meta property="og:image" content="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220402204620193.png">
+<meta property="og:image" content="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220402204725850.png">
+<meta property="og:image" content="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220402205553791.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220403182920025.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220403183220000.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220403190617671.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220403190740066.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220403194630159.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220403204906032.png">
+<meta property="og:image" content="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220403214342950.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220403214512000.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404150000723.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404150042548.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404150559171.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404151032769.png">
+<meta property="og:image" content="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220404173835674.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404173853516.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404174024260.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404173945088.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404174133968.png">
+<meta property="og:image" content="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220404182827037.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404184830611.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404184913091.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404184945538.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404202117178.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404202158443.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404203957517.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404204408550.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220413181330141.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404205104799.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404205416208.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220411175521363.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220411205710778.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220417163911508.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220417165824776.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220417170959008.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220417171102386.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220417171115288.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220417172119200.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220417172119200.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220417202630738.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220418101928228.png">
+<meta property="og:image" content="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220418103750345.png">
+<meta property="og:image" content="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220406193618218.png">
+<meta property="og:image" content="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220406194238414.png">
+<meta property="og:image" content="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220406194806917.png">
 <meta property="article:published_time" content="2022-03-27T12:30:46.187Z">
-<meta property="article:modified_time" content="2022-03-27T12:30:35.364Z">
+<meta property="article:modified_time" content="2022-04-25T15:40:44.483Z">
 <meta property="article:author" content="liang">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220323153652345.png"><script>(function() {
@@ -27,7 +83,7 @@ document.addEventListener("pjax:success", initScrollReveal);
   const setting = localStorage.getItem('darken-mode') || 'auto'
   if (setting === 'dark' || (prefersDark && setting !== 'light'))
     document.documentElement.classList.toggle('dark', true)
-})()</script></head><body><script defer src="https://cdn.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="Table of Contents"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-list-ordered"></use></svg></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="Overview"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-passport-line"></use></svg></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="liang"><img width="96" loading="lazy" src="/yun.png" alt="liang"></a><div class="site-author-name"><a href="/about/">liang</a></div><span class="site-name">Hexo</span><sub class="site-subtitle"></sub><div class="site-desciption"></div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="Home"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-home-4-line"></use></svg></span></a><div class="site-state-item"><a href="/archives/" title="Archives"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-archive-line"></use></svg></span><span class="site-state-item-count">8</span></a></div><div class="site-state-item"><a href="/categories/" title="Categories"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-2-line"></use></svg></span><span class="site-state-item-count">0</span></a></div><div class="site-state-item"><a href="/tags/" title="Tags"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="site-state-item-count">0</span></a></div><a class="site-state-item hty-icon-button" target="_blank" rel="noopener" href="https://yun.yunyoujun.cn" title="文档"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-settings-line"></use></svg></span></a></nav><hr style="margin-bottom:0.5rem"><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-genderless-line"></use></svg></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-contrast-2-line"></use></svg></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#JavaWenb"><span class="toc-number">1.</span> <span class="toc-text">JavaWenb</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#web-CS%E4%B8%8EBS%E7%9A%84%E5%BC%82%E5%90%8C%E7%82%B9"><span class="toc-number">1.1.</span> <span class="toc-text">web  CS与BS的异同点</span></a></li></ol></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="http://example.com/2022/03/27/JavaWeb%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="liang"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Hexo"></span><header class="post-header"><h1 class="post-title" itemprop="name headline"></h1><div class="post-meta"><div class="post-time"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="Created: 2022-03-27 20:30:46" itemprop="dateCreated datePublished" datetime="2022-03-27T20:30:46+08:00">2022-03-27</time></div><div class="post-classify"></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><h1 id="JavaWenb"><a href="#JavaWenb" class="headerlink" title="JavaWenb"></a>JavaWenb</h1><p>表单的学习：</p>
+})()</script></head><body><script defer src="https://cdn.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="Table of Contents"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-list-ordered"></use></svg></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="Overview"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-passport-line"></use></svg></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="liang"><img width="96" loading="lazy" src="/yun.png" alt="liang"></a><div class="site-author-name"><a href="/about/">liang</a></div><span class="site-name">Hexo</span><sub class="site-subtitle"></sub><div class="site-desciption"></div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="Home"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-home-4-line"></use></svg></span></a><div class="site-state-item"><a href="/archives/" title="Archives"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-archive-line"></use></svg></span><span class="site-state-item-count">8</span></a></div><div class="site-state-item"><a href="/categories/" title="Categories"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-2-line"></use></svg></span><span class="site-state-item-count">0</span></a></div><div class="site-state-item"><a href="/tags/" title="Tags"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="site-state-item-count">0</span></a></div><a class="site-state-item hty-icon-button" target="_blank" rel="noopener" href="https://yun.yunyoujun.cn" title="文档"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-settings-line"></use></svg></span></a></nav><hr style="margin-bottom:0.5rem"><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-genderless-line"></use></svg></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-contrast-2-line"></use></svg></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#JavaWenb"><span class="toc-number">1.</span> <span class="toc-text">JavaWenb</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#web-CS%E4%B8%8EBS%E7%9A%84%E5%BC%82%E5%90%8C%E7%82%B9"><span class="toc-number">1.1.</span> <span class="toc-text">web  CS与BS的异同点</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#javaweb%E5%B0%9A%E7%A1%85%E8%B0%B7%EF%BC%88%E6%97%A7%E7%89%88%EF%BC%89"><span class="toc-number">2.</span> <span class="toc-text">javaweb尚硅谷（旧版）</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Jquery%E4%BB%8B%E7%BB%8D"><span class="toc-number">2.1.</span> <span class="toc-text">Jquery介绍</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Javaweb%E5%BC%80%E5%A7%8B%EF%BC%9A"><span class="toc-number">2.2.</span> <span class="toc-text">Javaweb开始：</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ServletContext%E7%B1%BB"><span class="toc-number">2.2.1.</span> <span class="toc-text">ServletContext类</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#idea%E4%B8%8A%E9%9D%A2%E4%B8%8D%E8%83%BD%E5%88%9B%E5%BB%BAservlet%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%EF%BC%9A"><span class="toc-number">2.2.1.1.</span> <span class="toc-text">idea上面不能创建servlet程序解决办法：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ServletContext%E5%83%8Fmap%E4%B8%80%E6%A0%B7%E5%AD%98%E5%82%A8%E6%95%B0%E6%8D%AE%EF%BC%9A"><span class="toc-number">2.2.1.2.</span> <span class="toc-text">ServletContext像map一样存储数据：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#HTTP%E5%8D%8F%E8%AE%AE"><span class="toc-number">2.2.2.</span> <span class="toc-text">HTTP协议</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFHTTP%E5%8D%8F%E8%AE%AE%EF%BC%9A"><span class="toc-number">2.2.2.1.</span> <span class="toc-text">什么是HTTP协议：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AF%B7%E6%B1%82%E7%9A%84HTTP%E5%8D%8F%E8%AE%AE%E6%A0%BC%E5%BC%8F%EF%BC%9A"><span class="toc-number">2.2.2.2.</span> <span class="toc-text">请求的HTTP协议格式：</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#GET-%E8%AF%B7%E6%B1%82"><span class="toc-number">2.2.2.2.1.</span> <span class="toc-text">GET 请求</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#POST%E8%AF%B7%E6%B1%82%EF%BC%9A"><span class="toc-number">2.2.2.2.2.</span> <span class="toc-text">POST请求：</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%93%8D%E5%BA%94%E7%9A%84HTTP%E5%8D%8F%E8%AE%AE%E6%A0%BC%E5%BC%8F"><span class="toc-number">2.2.2.2.3.</span> <span class="toc-text">响应的HTTP协议格式</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E5%93%8D%E5%BA%94%E7%A0%81%E8%AF%B4%E6%98%8E%EF%BC%9A"><span class="toc-number">2.2.2.2.4.</span> <span class="toc-text">常见响应码说明：</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#MIME%E7%B1%BB%E5%9E%8B%EF%BC%9A"><span class="toc-number">2.2.2.2.5.</span> <span class="toc-text">MIME类型：</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%8D%E5%BA%94%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%EF%BC%9A"><span class="toc-number">2.2.3.</span> <span class="toc-text">响应乱码问题解决：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Servlet"><span class="toc-number">2.2.4.</span> <span class="toc-text">Servlet</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AF%B7%E6%B1%82%E9%87%8D%E5%AE%9A%E5%90%91%EF%BC%9A"><span class="toc-number">2.2.4.1.</span> <span class="toc-text">请求重定向：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B9%A6%E5%9F%8E%E9%A1%B9%E7%9B%AE"><span class="toc-number">2.2.5.</span> <span class="toc-text">书城项目</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#JavaEE%E4%B8%89%E5%B1%82%E6%9E%B6%E6%9E%84%EF%BC%9A"><span class="toc-number">2.2.5.1.</span> <span class="toc-text">JavaEE三层架构：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JSP"><span class="toc-number">2.2.6.</span> <span class="toc-text">JSP</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A3%B0%E6%98%8E%E8%84%9A%E6%9C%AC-%E5%BE%88%E5%B0%91%E4%BD%BF%E7%94%A8"><span class="toc-number">2.2.6.0.1.</span> <span class="toc-text">声明脚本(很少使用)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E8%A1%A8%E8%BE%BE%E5%BC%8F%E8%84%9A%E6%9C%AC"><span class="toc-number">2.2.6.0.2.</span> <span class="toc-text">表达式脚本</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E8%84%9A%E6%9C%AC"><span class="toc-number">2.2.6.0.3.</span> <span class="toc-text">代码脚本</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JSP%E7%9A%84%E4%B9%9D%E5%A4%A7%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1"><span class="toc-number">2.2.6.0.4.</span> <span class="toc-text">JSP的九大内置对象</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#jsp%E5%9B%9B%E5%A4%A7%E5%9F%9F%E5%AF%B9%E8%B1%A1"><span class="toc-number">2.2.6.0.5.</span> <span class="toc-text">jsp四大域对象</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#jsp-%E4%B8%AD%E7%9A%84-out-%E8%BE%93%E5%87%BA%E5%92%8C-response-getWriter-%E8%BE%93%E5%87%BA%E7%9A%84%E5%8C%BA-%E5%88%AB"><span class="toc-number">2.2.6.1.</span> <span class="toc-text">jsp 中的 out 输出和 response.getWriter 输出的区 别</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#JSP%E5%B8%B8%E7%94%A8%E7%9A%84%E6%A0%87%E7%AD%BE"><span class="toc-number">2.2.6.2.</span> <span class="toc-text">JSP常用的标签</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Listernter%E7%9B%91%E5%90%AC%E5%99%A8"><span class="toc-number">2.2.6.3.</span> <span class="toc-text">Listernter监听器</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFlistener%E7%9B%91%E5%90%AC%E5%99%A8"><span class="toc-number">2.2.6.3.1.</span> <span class="toc-text">什么是listener监听器</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#ServletContextListener%E7%9B%91%E5%90%AC%E5%99%A8"><span class="toc-number">2.2.6.3.2.</span> <span class="toc-text">ServletContextListener监听器</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#EL%E8%A1%A8%E8%BE%BE%E5%BC%8F"><span class="toc-number">2.2.7.</span> <span class="toc-text">EL表达式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JST%E6%A0%87%E7%AD%BE%E5%BA%93%EF%BC%88%E6%AC%A1%E9%87%8D%E7%82%B9%EF%BC%89"><span class="toc-number">2.2.8.</span> <span class="toc-text">JST标签库（次重点）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%95%86%E4%B8%9A%E8%AE%A1%E5%88%92%E4%B9%A6%E7%BC%96%E5%86%99"><span class="toc-number">2.2.9.</span> <span class="toc-text">商业计划书编写</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9E%E9%AA%8C%E8%AF%BE%E5%BD%93%E4%B8%AD%E9%81%87%E5%88%B0%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98"><span class="toc-number">2.2.10.</span> <span class="toc-text">实验课当中遇到一些问题</span></a></li></ol></li></ol></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="http://example.com/2022/03/27/JavaWeb%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="liang"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Hexo"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">Javaweb学习笔记</h1><div class="post-meta"><div class="post-time"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="Created: 2022-03-27 20:30:46" itemprop="dateCreated datePublished" datetime="2022-03-27T20:30:46+08:00">2022-03-27</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <time title="Modified: 2022-04-25 23:40:44" itemprop="dateModified" datetime="2022-04-25T23:40:44+08:00">2022-04-25</time></div><div class="post-classify"></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><h1 id="JavaWenb"><a href="#JavaWenb" class="headerlink" title="JavaWenb"></a>JavaWenb</h1><p>表单的学习：</p>
 <tr>一行
 
 <td>一列
@@ -35,7 +91,7 @@ document.addEventListener("pjax:success", initScrollReveal);
 <p><img src="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220323153652345.png" alt="image-20220323153652345" loading="lazy"></p>
 <h2 id="web-CS与BS的异同点"><a href="#web-CS与BS的异同点" class="headerlink" title="web  CS与BS的异同点"></a>web  CS与BS的异同点</h2><p>cs客户端服务器架构模式</p>
 <p>bs浏览器服务器架构模式</p>
-<p><img src="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220323160948604.png" alt="image-20220323160948604" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220323160948604.png" alt="image-20220323160948604" loading="lazy"></p>
 <p>Tomcate</p>
 <p>bin可执行目录</p>
 <p>conf配置文件目录</p>
@@ -44,7 +100,7 @@ document.addEventListener("pjax:success", initScrollReveal);
 <figure class="highlight jsp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&lt;%@ page contentType=<span class="string">&quot;text/html;charset=UTF-8&quot;</span> language=<span class="string">&quot;java&quot;</span> %&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;title&gt;JSP实验一&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;%<span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">1</span>;i&lt;=<span class="number">6</span>;i++)&#123; %&gt;</span><br><span class="line">&lt;h&lt;%=i%&gt; align=<span class="string">&quot;center&quot;</span> style=<span class="string">&quot;color:red&quot;</span>&gt;欢迎来到Javaweb的世界！&lt;/h&lt;%=i%&gt;&gt;</span><br><span class="line">    &lt;%&#125;</span><br><span class="line">%&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
 
 <p> servlet就是服务器端的应用程序</p>
-<p><img src="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220326175833212.png" alt="image-20220326175833212" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220326175833212.png" alt="image-20220326175833212" loading="lazy"></p>
 <ol>
 <li><p>设置编码<br> tomcat8之前，设置编码：<br>   1)get请求方式：<br> &#x2F;&#x2F;get方式目前不需要设置编码（基于tomcat8）<br> &#x2F;&#x2F;如果是get请求发送的中文数据，转码稍微有点麻烦（tomcat8之前）<br> String fname &#x3D; request.getParameter(“fname”);<br> &#x2F;&#x2F;1.将字符串打散成字节数组<br> byte[] bytes &#x3D; fname.getBytes(“ISO-8859-1”);<br> &#x2F;&#x2F;2.将字节数组按照设定的编码重新组装成字符串<br> fname &#x3D; new String(bytes,”UTF-8”);<br>   2)post请求方式：<br> request.setCharacterEncoding(“UTF-8”);<br> tomcat8开始，设置编码，只需要针对post方式<br> request.setCharacterEncoding(“UTF-8”);<br> 注意：<br> 需要注意的是，设置编码(post)这一句代码必须在所有的获取参数动作之前</p>
 </li>
@@ -91,4 +147,237 @@ document.addEventListener("pjax:success", initScrollReveal);
 </li>
 </ol>
 <p>&#x2F;&#x2F; 200 : 正常响应<br>&#x2F;&#x2F; 404 : 找不到资源<br>&#x2F;&#x2F; 405 : 请求方式不支持<br>&#x2F;&#x2F; 500 : 服务器内部错误</p>
-</td></tr></div></section><div id="reward-container"><span class="hty-icon-button button-glow" id="reward-button" title="Donate" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === &quot;none&quot;) ? &quot;block&quot; : &quot;none&quot;;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-hand-coin-line"></use></svg></span><div id="reward-comment">I'm so cute. Please give me money.</div></div><ul class="post-copyright"><li class="post-copyright-author"><strong>Post author: </strong>liang</li><li class="post-copyright-link"><strong>Post link: </strong><a href="http://example.com/2022/03/27/JavaWeb%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="">http://example.com/2022/03/27/JavaWeb%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</a></li><li class="post-copyright-license"><strong>Copyright Notice: </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><svg class="icon"><use xlink:href="#icon-creative-commons-line"></use></svg><svg class="icon"><use xlink:href="#icon-creative-commons-by-line"></use></svg><svg class="icon"><use xlink:href="#icon-creative-commons-nc-line"></use></svg><svg class="icon"><use xlink:href="#icon-creative-commons-sa-line"></use></svg></a> unless otherwise stated.</li></ul></article><div class="post-nav"><div class="post-nav-item"></div><div class="post-nav-item"><a class="post-nav-next" href="/2022/03/27/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="next" title=""><span class="post-nav-text"></span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-right-s-line"></use></svg></a></div></div></div><div class="hty-card" id="comment"></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2019 – 2022 </span><span class="with-love" id="animate"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-cloud-line"></use></svg></span><span class="author"> liang</span></div><div class="powered"><span>Powered by <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> v6.1.0</span><span class="footer-separator">|</span><span>Theme - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.8.11</span></div></footer><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-up-s-line"></use></svg><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a></div></body></html>
+<h1 id="javaweb尚硅谷（旧版）"><a href="#javaweb尚硅谷（旧版）" class="headerlink" title="javaweb尚硅谷（旧版）"></a>javaweb尚硅谷（旧版）</h1><h2 id="Jquery介绍"><a href="#Jquery介绍" class="headerlink" title="Jquery介绍"></a>Jquery介绍</h2><p><img src="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220402163343498.png" alt="image-20220402163343498" loading="lazy"></p>
+<p>jQuery $到底是啥 是一个函数</p>
+<p>jQuery用法：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220402170353019.png" alt="image-20220402170353019" loading="lazy"></p>
+<p>jQuery对象的本质是啥？</p>
+<p><img src="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220402174157943.png" alt="image-20220402174157943" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220402174739905.png" alt="image-20220402174739905" loading="lazy"></p>
+<p>表示页面加载完成之后才开始运行下面的代码：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220402180118108.png" alt="image-20220402180118108" loading="lazy"></p>
+<p>页面加载之后的简写：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220402181221956.png" alt="image-20220402181221956" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220402181930321.png" alt="image-20220402181930321" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220402182901062.png" alt="image-20220402182901062" loading="lazy"></p>
+<p>P73集</p>
+<p>XML简介：</p>
+<p>xml是可拓展的的标记语言</p>
+<p><img src="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220402203201370.png" alt="image-20220402203201370" loading="lazy"></p>
+<p>XML语法：</p>
+<p><img src="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220402204509365.png" alt="image-20220402204509365" loading="lazy"></p>
+<p><img src="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220402204620193.png" alt="image-20220402204620193" loading="lazy"></p>
+<p><img src="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220402204725850.png" alt="image-20220402204725850" loading="lazy"></p>
+<p>XML文档必须要有根元素</p>
+<p> <img src="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220402205553791.png" alt="image-20220402205553791" loading="lazy"></p>
+<p>特殊符号不会被解析的方法：</p>
+<!--[CDATA[需要填写的文本内容]]-->
+
+<p>xml是可拓展的的标记语言</p>
+<h2 id="Javaweb开始："><a href="#Javaweb开始：" class="headerlink" title="Javaweb开始："></a>Javaweb开始：</h2><p>请求和响应的概念：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220403182920025.png" alt="image-20220403182920025" loading="lazy"></p>
+<p>web资源分类：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220403183220000.png" alt="image-20220403183220000" loading="lazy"></p>
+<p>Servlet 技术：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220403190617671.png" alt="image-20220403190617671" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220403190740066.png" alt="image-20220403190740066" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220403194630159.png" alt="image-20220403194630159" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220403204906032.png" alt="image-20220403204906032" loading="lazy"></p>
+<p>alt insert 快捷键生成方法</p>
+<p>crtrl+H 快捷键看方法</p>
+<p><img src="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220403214342950.png" alt="image-20220403214342950" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220403214512000.png" alt="image-20220403214512000" loading="lazy"></p>
+<p>敲后半部分</p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404150000723.png" alt="image-20220404150000723" loading="lazy"></p>
+<p> 然后alt+ender自动生成</p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404150042548.png" alt="image-20220404150042548" loading="lazy"></p>
+<p>重写init方法 必须要把父类写上，即super.init(config)这句话否则就会报空指针异常错误</p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404150559171.png" alt="image-20220404150559171" loading="lazy"></p>
+<h3 id="ServletContext类"><a href="#ServletContext类" class="headerlink" title="ServletContext类"></a><strong>ServletContext</strong>类</h3><p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404151032769.png" alt="image-20220404151032769" loading="lazy"></p>
+<h4 id="idea上面不能创建servlet程序解决办法："><a href="#idea上面不能创建servlet程序解决办法：" class="headerlink" title="idea上面不能创建servlet程序解决办法："></a>idea上面不能创建servlet程序解决办法：</h4><p><img src="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220404173835674.png" alt="image-20220404173835674" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404173853516.png" alt="image-20220404173853516" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404174024260.png" alt="image-20220404174024260" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404173945088.png" alt="image-20220404173945088" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404174133968.png" alt="image-20220404174133968" loading="lazy"></p>
+<h4 id="ServletContext像map一样存储数据："><a href="#ServletContext像map一样存储数据：" class="headerlink" title="ServletContext像map一样存储数据："></a>ServletContext像map一样存储数据：</h4><p>context是一个上下文对象，一个工程下context是不变的</p>
+<h3 id="HTTP协议"><a href="#HTTP协议" class="headerlink" title="HTTP协议"></a>HTTP协议</h3><h4 id="什么是HTTP协议："><a href="#什么是HTTP协议：" class="headerlink" title="什么是HTTP协议："></a>什么是HTTP协议：</h4><p><img src="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220404182827037.png" alt="image-20220404182827037" loading="lazy"></p>
+<h4 id="请求的HTTP协议格式："><a href="#请求的HTTP协议格式：" class="headerlink" title="请求的HTTP协议格式："></a>请求的HTTP协议格式：</h4><p>客户端给服务器发送数据叫请求。</p>
+<p>服务器给客户端回传数据叫响应。</p>
+<p>请求又分为GET请求和POST请求两种</p>
+<h5 id="GET-请求"><a href="#GET-请求" class="headerlink" title="GET 请求"></a>GET 请求</h5><p> 1、请求行 </p>
+<p>(1) 请求的方式 GET</p>
+<p> (2) 请求的资源路径[+?+请求参数]</p>
+<p> (3) 请求的协议的版本号 HTTP&#x2F;1.1 </p>
+<p>2、请求头 ：</p>
+<p>key : value 组成 不同的键值对，表示不同的的含义</p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404184830611.png" alt="image-20220404184830611" loading="lazy"></p>
+<h5 id="POST请求："><a href="#POST请求：" class="headerlink" title="POST请求："></a>POST请求：</h5><p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404184913091.png" alt="image-20220404184913091" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404184945538.png" alt="image-20220404184945538" loading="lazy"></p>
+<p>​         </p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404202117178.png" alt="image-20220404202117178" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404202158443.png" alt="image-20220404202158443" loading="lazy"></p>
+<p>哪些是GET请求，那些是POST请求</p>
+<p><strong>GET请求有那些：</strong></p>
+<p>form标签method&#x3D;get</p>
+<p>a标签</p>
+<p>link标签引入css</p>
+<p>script引入JS文件</p>
+<p>img标签引入图片</p>
+<p>iframe引入HTML页面</p>
+<p>在浏览器当中输入地址是敲回车get请求</p>
+<p><strong>post请求有哪些：</strong></p>
+<p>form标签mehod&#x3D;post是POST请求</p>
+<h5 id="响应的HTTP协议格式"><a href="#响应的HTTP协议格式" class="headerlink" title="响应的HTTP协议格式"></a>响应的HTTP协议格式</h5><p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404203957517.png" alt="image-20220404203957517" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404204408550.png" alt="image-20220404204408550" loading="lazy"></p>
+<h5 id="常见响应码说明："><a href="#常见响应码说明：" class="headerlink" title="常见响应码说明："></a>常见响应码说明：</h5><p>200    表示请求成功</p>
+<p>302表示请求重定向</p>
+<p>404 ：表示请求服务器已经收到了，但是你要的错误数据不在（请求地址错误）</p>
+<p>500：表示服务器已经收到请求，但是服务器内部错误（代码错误）</p>
+<h5 id="MIME类型："><a href="#MIME类型：" class="headerlink" title="MIME类型："></a>MIME类型：</h5><h3 id="响应乱码问题解决："><a href="#响应乱码问题解决：" class="headerlink" title="响应乱码问题解决："></a>响应乱码问题解决：</h3><p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220413181330141.png" alt="image-20220413181330141" loading="lazy"></p>
+<p> <img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404205104799.png" alt="image-20220404205104799" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220404205416208.png" alt="image-20220404205416208" loading="lazy"></p>
+<h3 id="Servlet"><a href="#Servlet" class="headerlink" title="Servlet"></a>Servlet</h3><p>dopost请求需要解决中文乱码问题，</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">req.setCharacterEncoding(&quot;UTF-8&quot;);//解决中文乱码问题，记得放在dopost方法下面，紧邻，获取参数之前才有效果</span><br></pre></td></tr></table></figure>
+
+<p>doget请求不需要解决这个问题</p>
+<h4 id="请求重定向："><a href="#请求重定向：" class="headerlink" title="请求重定向："></a>请求重定向：</h4><p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220411175521363.png" alt="image-20220411175521363" loading="lazy"></p>
+<p>请求重定向特点：</p>
+<p>所有设置给客户端的东西都是通过resp来做（resp 表示response响应）</p>
+<p>请求重定向的第一种方案：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"> <span class="comment">// 设置响应状态码 302 ，表示重定向，（已搬迁）</span></span><br><span class="line">resp.setStatus(<span class="number">302</span>); </span><br><span class="line"><span class="comment">// 设置响应头，说明 新的地址在哪里 </span></span><br><span class="line">resp.setHeader(<span class="string">&quot;Location&quot;</span>, <span class="string">&quot;http://localhost:8080&quot;</span>); </span><br></pre></td></tr></table></figure>
+
+<p>请求重定向的第二种方案（推荐使用）：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">resp.sendRedirect(<span class="string">&quot;http://localhost:8080&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="书城项目"><a href="#书城项目" class="headerlink" title="书城项目"></a>书城项目</h3><h4 id="JavaEE三层架构："><a href="#JavaEE三层架构：" class="headerlink" title="JavaEE三层架构："></a>JavaEE三层架构：</h4><p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220411205710778.png" alt="image-20220411205710778" loading="lazy"></p>
+<h3 id="JSP"><a href="#JSP" class="headerlink" title="JSP"></a>JSP</h3><p> JSP本质是一个servlet程序，间接的继承了servlet类</p>
+<p>字符串本身就已经是对象了</p>
+<h5 id="声明脚本-很少使用"><a href="#声明脚本-很少使用" class="headerlink" title="声明脚本(很少使用)"></a>声明脚本(很少使用)</h5><h5 id="表达式脚本"><a href="#表达式脚本" class="headerlink" title="表达式脚本"></a>表达式脚本</h5><p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220417163911508.png" alt="image-20220417163911508" loading="lazy"></p>
+<p>例：</p>
+<figure class="highlight jsp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;%=request.getparameter(<span class="string">&quot;username&quot;</span>)%&gt;表达式脚本中的表达式不能以分号结束</span><br></pre></td></tr></table></figure>
+
+
+
+<h5 id="代码脚本"><a href="#代码脚本" class="headerlink" title="代码脚本"></a>代码脚本</h5><p>代码格式是：</p>
+<figure class="highlight jsp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;%</span><br><span class="line">		java语句</span><br><span class="line">%&gt;</span><br></pre></td></tr></table></figure>
+
+<p>代码脚本的作用：</p>
+<p>在jsp页面当中编写我们自己需要的功能（写的是Java语句）</p>
+<p>代码脚本的特点</p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220417165824776.png" alt="image-20220417165824776" loading="lazy"></p>
+<p>JSP当中三种注释</p>
+<p>html注释：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220417170959008.png" alt="image-20220417170959008" loading="lazy"></p>
+<p>Java注释：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220417171102386.png" alt="image-20220417171102386" loading="lazy"></p>
+<p>jsp注释：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220417171115288.png" alt="image-20220417171115288" loading="lazy"></p>
+<h5 id="JSP的九大内置对象"><a href="#JSP的九大内置对象" class="headerlink" title="JSP的九大内置对象"></a>JSP的九大内置对象</h5><ol>
+<li><p>（1）request 请求对象</p>
+</li>
+<li><p>（2）response 响应对象</p>
+</li>
+<li><p>（3）pageContext jsp上下文对象</p>
+</li>
+<li><p>session    c会话对象</p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220417172119200.png" alt="image-20220417172119200" loading="lazy"></p>
+</li>
+</ol>
+<h5 id="jsp四大域对象"><a href="#jsp四大域对象" class="headerlink" title="jsp四大域对象"></a>jsp四大域对象</h5><p>四个域对象分别是：pageContext（pageContextimpl类）、request、session、application</p>
+<p>域对象是可以像map一样存取数据的对象。四个域对象功能是一样的，不同的是他们对数据的存取范围</p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220417172119200.png" loading="lazy"></p>
+<ol>
+<li>pageContext  (PageContextImpl 类) 当前 jsp 页面范围内有效 </li>
+<li>request  (HttpServletRequest 类)、 一次请求内有效</li>
+<li>session  (HttpSession 类)、 一个会话范围内有效（打开浏览器访问服务器，直到关闭浏览器）</li>
+<li>application   (ServletContext 类) 整个 web 工程范围内都有效（只要 web 工程不停止，数据都在）</li>
+</ol>
+<p>域对象是可以像 Map 一样存取数据的对象。</p>
+<p>四个域对象功能一样。不同的是它们对数据的存取范围。 虽然四个域对象都可以存取数据。在使用上它们是有优先顺序的。</p>
+<p> 四个域在使用的时候，优先顺序分别是，他们从小到大的范围的顺序。 </p>
+<p>pageContext &#x3D;&#x3D;&#x3D;&#x3D;&gt;&gt;&gt; request &#x3D;&#x3D;&#x3D;&#x3D;&gt;&gt;&gt; session &#x3D;&#x3D;&#x3D;&#x3D;&gt;&gt;&gt;application</p>
+<p>选择小范围的可以减轻服务器压力</p>
+<h4 id="jsp-中的-out-输出和-response-getWriter-输出的区-别"><a href="#jsp-中的-out-输出和-response-getWriter-输出的区-别" class="headerlink" title="jsp 中的 out 输出和 response.getWriter 输出的区 别"></a>jsp 中的 out 输出和 response.getWriter 输出的区 别</h4><p>深入源码，浅出结论：在 jsp 页面中，可以统一使用 out.print()来进行输出避免打乱页面顺序</p>
+<p>out.write（）输出字符串没有问题</p>
+<p>out.printf()输出任何数据都没有问题（都转换成字符串后调用write输出）</p>
+<h4 id="JSP常用的标签"><a href="#JSP常用的标签" class="headerlink" title="JSP常用的标签"></a>JSP常用的标签</h4><ol>
+<li>jsp静态包含（常用）</li>
+</ol>
+<p>  <img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220417202630738.png" alt="image-20220417202630738" loading="lazy"></p>
+<p>2.动态包含</p>
+<p> 示例说明：</p>
+<figure class="highlight jsp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;%-- 这是动态包含 page 属性是指定你要包含的 jsp 页面的路径 动态包含也可以像静态包含一样。把被包含的内容执行输出到包含位置</span><br><span class="line"></span><br><span class="line">动态包含的特点：</span><br><span class="line"></span><br><span class="line"><span class="number">1</span>、动态包含会把包含的 jsp 页面也翻译成为 java 代码</span><br><span class="line"></span><br><span class="line"><span class="number">2</span>、动态包含底层代码使用如下代码去调用被包含的 jsp 页面执行输出。</span><br><span class="line"></span><br><span class="line">JspRuntimeLibrary.include(request, response, <span class="string">&quot;/include/footer.jsp&quot;</span>, out, <span class="literal">false</span>);</span><br><span class="line"></span><br><span class="line"><span class="number">3</span>、动态包含，还可以传递参数 --%&gt;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight jsp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;jsp:include page=<span class="string">&quot;/include/footer.jsp&quot;</span>&gt;</span><br><span class="line">&lt;jsp:param name=<span class="string">&quot;username&quot;</span> value=<span class="string">&quot;bbj&quot;</span>/&gt;</span><br><span class="line">&lt;jsp:param name=<span class="string">&quot;password&quot;</span> value=<span class="string">&quot;root&quot;</span>/&gt;</span><br><span class="line">&lt;/jsp:include&gt;</span><br></pre></td></tr></table></figure>
+
+<p>动态包含的底层原理：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/lianghuawei-qingxu/bloglmage@main/img/image-20220418101928228.png" alt="image-20220418101928228" loading="lazy"></p>
+<p>jsp标签-转发</p>
+<figure class="highlight jsp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">示例说明：</span><br><span class="line">&lt;%--</span><br><span class="line"> &lt;%-- 是请求转发标签，它的功能就是请求转发 page 属性设置请求转发的路径 --%&gt;</span><br><span class="line">page 属性设置请求转发的路径</span><br><span class="line">--%&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight jsp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;jsp:forward page=<span class="string">&quot;/scope2.jsp&quot;</span>&gt;&lt;/jsp:forward&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>jsp适用于回传数据页面</p>
+<p>&#x2F;表示工程名映射到web目录下</p>
+<p><img src="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220418103750345.png" alt="image-20220418103750345" loading="lazy"></p>
+<h4 id="Listernter监听器"><a href="#Listernter监听器" class="headerlink" title="Listernter监听器"></a>Listernter监听器</h4><h5 id="什么是listener监听器"><a href="#什么是listener监听器" class="headerlink" title="什么是listener监听器"></a>什么是listener监听器</h5><ol>
+<li>Javaweb三大监听器分别是：servlet程序、filter过滤器、listener监听器</li>
+<li>Lisener它是JavaEE的规范，就是接口</li>
+<li>监听器的作用是，监听某种事物的变化，然后通过回调函数，反馈给客服（程序）去做一些相应的处理</li>
+</ol>
+<h5 id="ServletContextListener监听器"><a href="#ServletContextListener监听器" class="headerlink" title="ServletContextListener监听器"></a>ServletContextListener监听器</h5><h3 id="EL表达式"><a href="#EL表达式" class="headerlink" title="EL表达式"></a>EL表达式</h3><p>EL表达式的三个</p>
+<p>修改xml文件时一定要重新部署</p>
+<p>Cookie</p>
+<h3 id="JST标签库（次重点）"><a href="#JST标签库（次重点）" class="headerlink" title="JST标签库（次重点）"></a>JST标签库（次重点）</h3><p>JSTL</p>
+<p>JSTL标签库的使用步骤</p>
+<p>1、先导入jstl的jar包  </p>
+<p>core核心库的使用</p>
+<ol>
+<li><p>&lt;c:set&#x2F;&gt;</p>
+<p>作用:set标签可以往域中保存数据 </p>
+<p>保存信息到域对象当中，方法：</p>
+<p>域对象.setAttribute( key,value);</p>
+<ul>
+<li>保存到哪个域当中</li>
+<li>key的是多少</li>
+<li>value值是多少</li>
+</ul>
+<p>score 属性设置保存到哪个域</p>
+<ul>
+<li>page表示pageContext域（默认值）</li>
+<li>request表示request域</li>
+<li>session表示session域</li>
+<li>application表示servletContext域</li>
+</ul>
+<p>var属性设置key是多少</p>
+<p>value属性设置值是多少</p>
+</li>
+<li></li>
+<li></li>
+</ol>
+<h3 id="商业计划书编写"><a href="#商业计划书编写" class="headerlink" title="商业计划书编写"></a>商业计划书编写</h3><p>要有商业计划思维</p>
+<p>设身处地的设想为商业</p>
+<p>从商业思维出发思考，创业比赛要有商业化</p>
+<p>好好研读比赛章程</p>
+<p>要做好市场调研，不能与国家政策相冲突，评委相对来说注重未来潜在价值</p>
+<p>商业计划书，对与比赛来说十分重要</p>
+<p>商业计划书要点：</p>
+<p><img src="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220406193618218.png" alt="image-20220406193618218" loading="lazy"></p>
+<p>一定要写产品介绍</p>
+<p>正文内容：</p>
+<p><img src="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220406194238414.png" alt="image-20220406194238414" loading="lazy"></p>
+<p>扉页十分的重要（讲正文的那几页，一般都是十页左右）</p>
+<p><img src="https://gitee.com/liang-huawei/bloglmg/raw/master/img/image-20220406194806917.png" alt="image-20220406194806917" loading="lazy"></p>
+<h3 id="实验课当中遇到一些问题"><a href="#实验课当中遇到一些问题" class="headerlink" title="实验课当中遇到一些问题"></a>实验课当中遇到一些问题</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;%request.setCharacterEncoding(&quot;UTF-8&quot;);%&gt;//对编码格式进行修改，解决中文乱码的现象</span><br></pre></td></tr></table></figure>
+
+
+
+<p>form 表单居中</p>
+<p>1、在外面套一层<div style="width:100%;text-align:center"></div><br>但是只能水平居中，不能垂直居中<br>2、在外面套一层<br>同上<br>3、margin:300px;</p>
+</td></tr></div></section><div id="reward-container"><span class="hty-icon-button button-glow" id="reward-button" title="Donate" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === &quot;none&quot;) ? &quot;block&quot; : &quot;none&quot;;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-hand-coin-line"></use></svg></span><div id="reward-comment">I'm so cute. Please give me money.</div></div><ul class="post-copyright"><li class="post-copyright-author"><strong>Post author: </strong>liang</li><li class="post-copyright-link"><strong>Post link: </strong><a href="http://example.com/2022/03/27/JavaWeb%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="Javaweb学习笔记">http://example.com/2022/03/27/JavaWeb%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</a></li><li class="post-copyright-license"><strong>Copyright Notice: </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><svg class="icon"><use xlink:href="#icon-creative-commons-line"></use></svg><svg class="icon"><use xlink:href="#icon-creative-commons-by-line"></use></svg><svg class="icon"><use xlink:href="#icon-creative-commons-nc-line"></use></svg><svg class="icon"><use xlink:href="#icon-creative-commons-sa-line"></use></svg></a> unless otherwise stated.</li></ul></article><div class="post-nav"><div class="post-nav-item"></div><div class="post-nav-item"><a class="post-nav-next" href="/2022/03/27/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="next" title=""><span class="post-nav-text"></span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-right-s-line"></use></svg></a></div></div></div><div class="hty-card" id="comment"></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2019 – 2022 </span><span class="with-love" id="animate"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-cloud-line"></use></svg></span><span class="author"> liang</span></div><div class="powered"><span>Powered by <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> v6.1.0</span><span class="footer-separator">|</span><span>Theme - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.8.11</span></div></footer><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-up-s-line"></use></svg><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a></div></body></html>
